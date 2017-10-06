@@ -1,0 +1,3 @@
+[submodule "orientdb"]
+	path = orientdb
+	url = git@lab.7bridges.eu:7b/jepsen.orientdb.git
