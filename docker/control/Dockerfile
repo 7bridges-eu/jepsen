@@ -31,7 +31,7 @@ ADD ./bashrc /root/.bashrc
 ADD ./init.sh /init.sh
 RUN chmod +x /init.sh
 
-# Add jepsen.orientdb project
-ADD ./jepsen.orientdb /jepsen/orientdb
+# Add orientdb project
+ADD ./jepsen/orientdb /jepsen/orientdb
 
 CMD /init.sh
